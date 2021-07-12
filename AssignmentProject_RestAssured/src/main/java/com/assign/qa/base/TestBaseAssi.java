@@ -70,5 +70,7 @@ public class TestBaseAssi {
 		WebElement element = shadow.findElement(locator);
 		return element;
 	}
+	
+	
 
 }
