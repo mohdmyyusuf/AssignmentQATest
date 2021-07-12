@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Utils.ListenerClass"/>
+    <listener class-name="com.assign.qa.base.reruntests.AnnoTranformer"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="TestCasesGetReqs.GetPosts">
         <methods>
           <include name="getPhotos"/>
+          <include name="validateUser"/>
         </methods>
       </class> <!-- TestCasesGetReqs.GetPosts -->
     </classes>
