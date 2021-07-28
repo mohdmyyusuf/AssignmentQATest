@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95323" started-at="2021-07-28T21:23:24 IST" finished-at="2021-07-28T21:24:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95323" started-at="2021-07-28T21:23:24 IST" finished-at="2021-07-28T21:24:59 IST">
+      <class name="com.assign.qa.base.testcases.MainPageTests">
+        <test-method status="PASS" signature="setUpTests()[pri:0, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="setUpTests" is-config="true" duration-ms="41231" started-at="2021-07-28T21:23:24 IST" finished-at="2021-07-28T21:24:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="verifyHomePageTitleTest" duration-ms="53" started-at="2021-07-28T21:24:05 IST" finished-at="2021-07-28T21:24:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="tearDown" is-config="true" duration-ms="746" started-at="2021-07-28T21:24:05 IST" finished-at="2021-07-28T21:24:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTests()[pri:0, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="setUpTests" is-config="true" duration-ms="38990" started-at="2021-07-28T21:24:06 IST" finished-at="2021-07-28T21:24:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="verifyDefaultTabSelected()[pri:2, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="verifyDefaultTabSelected" duration-ms="13404" started-at="2021-07-28T21:24:45 IST" finished-at="2021-07-28T21:24:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultTabSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.assign.qa.base.testcases.MainPageTests@687080dc]" name="tearDown" is-config="true" duration-ms="838" started-at="2021-07-28T21:24:58 IST" finished-at="2021-07-28T21:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assign.qa.base.testcases.MainPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

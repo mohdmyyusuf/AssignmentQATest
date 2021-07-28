@@ -1,9 +1,7 @@
 package TestCasesGetReqs;
 
 import org.testng.annotations.Test;
-
 import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
