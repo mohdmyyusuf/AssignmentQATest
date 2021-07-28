@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="verifyDefaultTabSelected"/>
           <include name="setUpTests"/>
+          <include name="verifyHomePageTitleTest"/>
         </methods>
       </class> <!-- com.assign.qa.base.testcases.MainPageTests -->
     </classes>

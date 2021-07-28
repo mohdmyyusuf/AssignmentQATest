@@ -7,7 +7,6 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestCasesGetReqs.GetPosts"/>
       <class name="com.assign.qa.base.testcases.MainPageTests"/>
     </classes>
   </test> <!-- Test -->

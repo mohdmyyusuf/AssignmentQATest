@@ -66,12 +66,11 @@ public class TestPage extends TestBaseAssi {
 
 	public void verifyDefaultTab() {
 		boolean flag = primaryTab.isEnabled();
-		System.out.println(flag);
+		
 		if (flag) {
 			String count = totalMailCount.getText();
 			System.out.println("Total mails in inbox are " + count);
 
-			System.out.println(a.size());
 			for (int i = 0; i < a.size(); i++) {
 				System.out.println(a.get(i).getText());
 				if (a.get(i).getText().equals("Mohd Yusuf")) { // if u want to click on the specific mail then here u

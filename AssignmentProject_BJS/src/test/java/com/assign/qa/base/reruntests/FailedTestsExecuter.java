@@ -15,7 +15,7 @@ public class FailedTestsExecuter {
 		@SuppressWarnings("deprecation")
 		TestNG runner  = new TestNG();
 		List<String> li = new ArrayList<String>();
-		li.add("D:\\codeRepository\\AssignmentCode\\AssignmentProject_RestAssured\\test-output\\testng-failed.xml");
+		li.add("D:\\codeRepository\\AssignmentCode\\AssignmentProject_BJS\\test-output\\testng-failed.xml");
 		runner.setTestSuites(li);
 		runner.run();
 	}
