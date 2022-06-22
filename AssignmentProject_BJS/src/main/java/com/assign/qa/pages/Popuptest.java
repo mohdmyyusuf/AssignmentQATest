@@ -39,11 +39,20 @@ public class Popuptest extends TestBaseAssi {
 	}
 	}
 	
-	@Test(testName = "test popups", priority = 2)
+	@Test(testName = "test popups", priority = 2, enabled = false)
 	public void testPopups() {
 		Alert alert = driver.switchTo().alert();
 		String msg = driver.switchTo().alert().getText();
+		driver.switchTo().alert().sendKeys("test message");
+		alert.accept();
+		alert.dismiss();
+		driver.switchTo().defaultContent();
 		
+	}
+	
+	@Test(testName = "frame test", priority = 3, groups = {"test"} )
+	public void frameTest() {
+		driver.switchTo().frame(0);
 		
 	}
 
