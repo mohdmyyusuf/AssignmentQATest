@@ -25,7 +25,7 @@ public class TestBaseAssi {
 		prop = new Properties();
 		try {
 			FileInputStream fistr = new FileInputStream(
-					"\\AssignmentProject_RestAssured\\src\\main\\java\\com\\assign\\qa\\config\\config.propertiesD:\\codeRepository\\AssignmentCode\\AssignmentProject_BJS\\src\\main\\java\\com\\assign\\qa\\config\\config.properties");
+					"C:\\Users\\user\\Desktop\\CodeRepo\\AssignmentQATest\\AssignmentProject_BJS\\src\\main\\java\\com\\assign\\qa\\config\\config.properties");
 			prop.load(fistr);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
