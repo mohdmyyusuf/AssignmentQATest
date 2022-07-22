@@ -1,0 +1,38 @@
+pipeline{
+	agent any
+	stages{
+		stage('compile stage'){
+			steps{
+			withMaven(maven : 'mavenDir'){
+				sh 'mvn clean compile'			
+			
+			}
+		}
+		
+		}
+		stage('testing stage'){
+		
+		steps{
+			withMaven(maven : 'mavenDir'){
+				sh 'mvn test'			
+			
+			}
+		}
+			
+		}
+		
+		stage('deployment stage'){
+		
+		steps{
+			withMaven(maven : 'mavenDir'){
+				sh 'mvn deploy'			
+			
+			}
+		}
+			
+		}
+	
+	}
+
+
+}
