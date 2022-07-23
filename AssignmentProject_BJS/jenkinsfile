@@ -4,7 +4,8 @@ pipeline{
 		stage('compile stage'){
 			steps{
 			withMaven(maven : 'mavenDir'){
-				sh 'mvn clean compile'			
+				sh 'mvn clean compile'		
+				echo 'compiling the code'	
 			
 			}
 		}
@@ -15,6 +16,7 @@ pipeline{
 		steps{
 			withMaven(maven : 'mavenDir'){
 				sh 'mvn test'			
+				echo 'testing the code'
 			
 			}
 		}
@@ -26,7 +28,7 @@ pipeline{
 		steps{
 			withMaven(maven : 'mavenDir'){
 				sh 'mvn deploy'			
-			
+				echo 'deploying the code'
 			}
 		}
 			
