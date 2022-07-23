@@ -16,7 +16,7 @@ pipeline{
 		steps{
 			withMaven(maven : 'mavenDir'){
 				sh 'mvn test'			
-				echo 'testing the code'
+				echo 'testing the code on test server'
 			
 			}
 		}
